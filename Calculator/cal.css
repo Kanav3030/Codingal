@@ -1,0 +1,47 @@
+body{
+    background-color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#hello{
+    width:1000px;
+    height:550px;
+    margin:20px;
+    margin:auto;
+}
+#ten{
+    width: 320px;
+    height: 520px;
+    background-color: blanchedalmond;
+    margin:0;
+    margin:auto;
+    top:20px;
+    position:relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2),0 6px,20px 0 rgba(0,0,0,.2);
+}
+#result{
+    height:120px;
+}
+#kanav{
+    height:400px;
+}
+.operator,.number{
+    width:50px;
+    height:50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    font-size: 15px;
+}
+.number{
+    background-color: blue;
+}
+.number,.operator{
+    cursor: pointer;
+}
+.operator :active, .number :active{
+    font-size: 13px;
+}
+.operator:focus, .number:focus{
+    outline:0;
+}
