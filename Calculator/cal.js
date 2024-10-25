@@ -64,13 +64,14 @@ for (var i=0;i<operator.length;i++){
             }
         }      
     });
+}
 var number = document.getElementsByClassName("number");
 for (var i = 0; i < number.length; i++) {
     number[i].addEventListener('click', function () {
            if (output != NaN) {
    var output = reverseNumberFormat(getoutput());
               output = output + this.id;
-            printOutput(output);
+            printoutput(output);
         }
     });
 }
